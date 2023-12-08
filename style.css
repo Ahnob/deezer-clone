@@ -31,6 +31,8 @@ Resets
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 /* Make images easier to work with */
@@ -41,12 +43,193 @@ picture {
 }
 
 /* Inherit fonts for inputs and buttons */
-input, button,
-textarea, select {
+input,
+button,
+textarea,
+select {
   font: inherit;
 }
 
-body{
-    min-height: 100vh;
-    line-height: 1.5;
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  font-family: "Titillium Web", sans-serif;
+  background: var(--clr-primary);
+}
+
+.header_nav {
+  background-color: var(--clr-primary);
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  width: 3rem;
+}
+
+p {
+  font-weight: 900;
+  letter-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--clr-text);
+}
+
+.header_logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+li {
+  list-style: none;
+}
+
+.header_nav {
+  display: flex;
+  padding: 0 200px;
+  border-bottom: inset grey;
+}
+
+.header_list {
+  display: flex;
+  gap: 19px;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  font-weight: bolder;
+}
+
+.header_list_container {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  align-items: center;
+  font-weight: 400;
+}
+
+.header_button_container {
+  display: flex;
+  gap: 2rem;
+  font-size: smaller;
+  font-weight: 700;
+}
+
+.header_p {
+  font-weight: bolder;
+  font-size: var(--font-size-sm);
+}
+
+.sign-up_button {
+  background-color: var(--clr-accent);
+  padding: 8px 20px;
+  border-radius: 12px;
+}
+
+.login_button {
+  background-color: transparent;
+  padding: 8px 20px;
+  border: 1px solid grey;
+  border-radius: 12px;
+}
+
+.active {
+  color: var(--clr-accent);
+}
+
+.section_1 {
+  background-color: #0f0d13;
+}
+
+.first_header_1 {
+  color: var(--clr-text);
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-wrap: balance;
+  font-weight: 900;
+  letter-spacing: 0.25px;
+  text-align: center;
+  font-size: 70px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.me {
+  display: flex;
+  background: var(--clr-primary);
+  justify-content: center;
+}
+
+.us {
+  background-color: rgb(33, 34, 34);
+  display: flex;
+  gap: 20px;
+  padding: 12px 12px 12px 15px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 15px;
+  width: 35%;
+  margin: 15px 0 100px 0;
+}
+
+.fa-li {
+  position: static;
+  text-align: center;
+}
+
+.first_paragraph {
+  color: rgb(149, 146, 146);
+}
+
+.icon {
+  background-color: #413f43;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+.second_heading_2 {
+  color: var(--clr-text);
+}
+
+.section_3 {
+  background: var(--clr-text);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.premium_class {
+  color: var(--clr-text);
+  display: inline;
+  background: var(--clr-accent);
+  padding: 3px 12px;
+  border-radius: 9px 9px 9px 9px/75% 75% 75% 75%;
+  font-weight: 900;
+}
+
+.first_card {
+  background: rgb(243, 193, 243);
+  display: flex;
+  justify-content: space-between;
+}
+
+.annual_button {
+  border-radius: 9px 9px 9px 9px/75% 75% 75% 75%;
+  border: none;
+  padding: 2px 15px;
+  background: var(--clr-primary);
+  color: var(--clr-text);
+}
+
+.second_lower_card {
+  background: rgb(243, 193, 243);
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.try_for_free_button {
+  background: var(--clr-primary);
+  color: var(--clr-text);
 }
