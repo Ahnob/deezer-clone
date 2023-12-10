@@ -204,7 +204,7 @@ li {
   padding: 1rem;
   border-radius: 5px;
   --flow-spacer: 0.75rem;
-  margin-bottom: 0.25rem;
+  margin: 20px auto 5px auto;
 }
 
 .premium_class {
@@ -229,10 +229,10 @@ li {
   display: flex;
   margin-top: 5px;
   max-width: 700px;
-  border-radius: 5px;
   justify-content: space-between;
   cursor: pointer;
   padding: 1rem;
+  border-radius: 5px;
 }
 
 .lower_card:hover {
