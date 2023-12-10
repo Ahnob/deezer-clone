@@ -192,11 +192,19 @@ li {
 }
 
 .section_3 {
-  background: var(--clr-text);
+  background: var(--clr-accent);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
+}
+
+.section_3_1 {
+  background: var(--clr-text);
+  max-width: 700px;
+  padding: 1rem;
+  border-radius: 5px;
+  --flow-spacer: 0.75rem;
+  margin-bottom: 0.25rem;
 }
 
 .premium_class {
@@ -208,10 +216,28 @@ li {
   font-weight: 900;
 }
 
-.first_card {
+.premium_paragraph {
+  font-weight: lighter;
+  letter-spacing: 1px;
+  padding: 1rem 0;
+  color: #292829;
+  font-size: 15px;
+}
+
+.lower_card {
   background: rgb(243, 193, 243);
   display: flex;
+  margin-top: 5px;
+  max-width: 700px;
+  border-radius: 5px;
   justify-content: space-between;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.lower_card:hover {
+  background: var(--clr-text);
+  transition: ease-in-out 1000ms;
 }
 
 .annual_button {
@@ -222,14 +248,28 @@ li {
   color: var(--clr-text);
 }
 
-.second_lower_card {
-  background: rgb(243, 193, 243);
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
+.try_for_free_link {
+  color: var(--clr-text);
+  background-color: var(--clr-primary);
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 20px;
+  font-weight: var(--font-weight-md);
+  cursor: pointer;
+  border: none;
 }
 
-.try_for_free_button {
-  background: var(--clr-primary);
-  color: var(--clr-text);
+.try_for_free_link:hover {
+  background: #2f2e2f;
+  transition: ease-in-out 500ms;
+}
+
+.card_link {
+  color: #55515a;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 15px;
 }
