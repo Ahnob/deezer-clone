@@ -353,9 +353,9 @@ li {
 
 .child_card_column {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   color: var(--clr-text);
-  padding: 20px;
+  padding: 12px;
   background: #29262d;
-  margin-top: 32px;
+  margin-top: 10px;
 }
