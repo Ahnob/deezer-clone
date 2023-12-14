@@ -319,6 +319,9 @@ li {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 700;
 }
+.third_card {
+  border-radius: 4px;
+}
 
 .plans_card {
   color: var(--clr-primary);
@@ -326,7 +329,7 @@ li {
   display: flex;
   justify-content: space-between;
   padding-bottom: 20px 10px;
-  background: #1b1920;
+  background: #141212;
   border-bottom: 1px solid inset;
   border-bottom: 1px solid rgb(125, 124, 124);
 }
@@ -356,6 +359,10 @@ li {
   justify-content: space-between;
   color: var(--clr-text);
   padding: 12px;
-  background: #29262d;
-  margin-top: 10px;
+  background: #141212;
+  height: 48px;
+}
+
+.lighter_column {
+  background: #201c23;
 }
