@@ -172,6 +172,7 @@ li {
 .fa-li {
   position: static;
   text-align: center;
+  width: 10px;
 }
 
 .first_paragraph {
@@ -305,10 +306,15 @@ li {
   color: #29262d;
 }
 
+.third_container {
+  background: #201c23;
+  padding: 50px;
+}
+
 .third_card {
-  background: #1b191f;
-  margin: 30px auto;
+  margin: 50px auto;
   width: 600px;
+  border-radius: 10px;
 }
 
 .compare_paragraph {
@@ -320,7 +326,7 @@ li {
   font-weight: 700;
 }
 .third_card {
-  border-radius: 4px;
+  border-radius: 50px;
 }
 
 .plans_card {
@@ -335,23 +341,29 @@ li {
 }
 
 .premium_button {
-  padding: 10px 12px 10px 16px;
+  padding: 10px 23px 10px 16px;
   border-radius: 12px;
   color: var(--clr-accent);
   border: 1px solid var(--clr-accent);
   background-color: transparent;
   margin: 20px;
   cursor: pointer;
+  font-weight: 400;
 }
 
 .free_button {
   background-color: transparent;
   border: 1px solid grey;
-  padding: 10px 12px 10px 16px;
+  padding: 13px 32px 13px 30px;
   border-radius: 12px;
   color: var(--clr-text);
   margin: 20px;
   cursor: pointer;
+  font-weight: 400;
+}
+
+.free_button_icon {
+  padding-left: 20px;
 }
 
 .child_card_column {
@@ -364,5 +376,12 @@ li {
 }
 
 .lighter_column {
-  background: #201c23;
+  background: #1e1b20;
+}
+
+.animated-group-gift-card {
+  /* aspect-ratio: 1.4; */
+  max-width: 650px;
+  position: relative;
+  width: 100%;
 }
