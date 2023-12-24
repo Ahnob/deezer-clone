@@ -326,7 +326,6 @@ li {
   font-weight: 700;
 }
 .third_card {
-  border-radius: 50px;
 }
 
 .plans_card {
@@ -383,5 +382,42 @@ li {
   /* aspect-ratio: 1.4; */
   max-width: 650px;
   position: relative;
+  width: 100%;
+}
+
+.fourth_card {
+  background: var(--clr-text);
+  display: flex;
+  justify-content: space-around;
+}
+
+.parent_button {
+  display: flex;
+  gap: 20px;
+}
+
+.fourth_section_button {
+  background: var(--clr-primary);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  max-height: 100px;
+}
+
+.fifth_section_paragraph {
+  color: var(--clr-text);
+}
+
+.animated-group-gift-card {
+  display: flex;
+}
+
+.animated-gift-card {
+  width: 400px;
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
   width: 100%;
 }
