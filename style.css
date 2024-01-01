@@ -406,13 +406,17 @@ li {
   max-height: 100px;
 }
 
+.fifth_section {
+  border-bottom: #2f2e2f 1px solid;
+}
+
 .fifth_section_paragraph {
-  position: relative;
-  text-align: center;
-  width: 100%;
   color: grey;
-  font-size: 18px;
-  margin: 70px auto;
+  margin: 90px auto;
+  line-height: 1.5;
+  font-size: 12px;
+  max-width: 850px;
+  text-align: center;
 }
 
 .animated-group-gift-card {
@@ -444,11 +448,27 @@ li {
 }
 .fourth_card_paragraph {
   color: rgb(111, 107, 107);
-  font-size: 19px;
   letter-spacing: 1px;
   font-weight: lighter;
 }
 
 .activate_card {
   margin-top: 15px;
+}
+
+.footer_image_container {
+  display: flex;
+}
+
+.footer_image {
+  width: 150px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.footer_list_container {
+  display: flex;
+  gap: 50px;
+  color: white;
+  justify-content: center;
 }
